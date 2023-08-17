@@ -24,9 +24,13 @@ In this implementation of the game, the players take turns by entering the numbe
 1. **Graphical user interface**: The game uses Java Swing to provide a graphical user interface, making it easy to play the game with clicks of a button.
 1. **Current Player Display**: The game displays the current player's turn (either 'X' or 'O') on the top of the game window.
 1. **Win Detection**: The game automatically checks for a win condition after each move. A player wins by placing three of their marks in a horizontal, vertical, or diagonal row.
+
 ![X Wins](XWins.png)
+
 ![O Wins](OWins.png)
+
 ![Tie](TIE.png)
+
 1. **Score Keeping**: The game keeps track of how many games each player has won during the session.
 1. **Reset Function**: Players can reset the game board at any time while maintaining the score with the "RESET" button.
 1. **Exit Button**: Players can choose to exit the game at any time by clicking on the "EXIT" button.
