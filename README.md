@@ -37,13 +37,20 @@ In this implementation of the game, the players take turns by entering the numbe
 
 ## Installation and Usage
 
-This game is a simple Java application. Ensure you have Java installed on your machine. To check if you have Java installed, open a command prompt and type `java -version`. If a version number is returned, then Java is installed. Otherwise, [download and install Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+This game is a simple Java application. Ensure you have Java and Eclipse (or another Java IDE) installed on your machine.
 
-To run the game, download the `.jar` file from the repository and run it using the command `java -jar TicTacToeGame.jar`.
+To run the game, clone this repository and import it into your Java IDE:
+
+1. Clone the repository: `git clone https://github.com/yourusername/TicTacToeGame.git`
+2. In Eclipse, choose File > Import > General > Existing Projects into Workspace.
+3. Select the `TicTacToeGame` directory that you cloned.
+4. Click Finish to complete the import.
+5. Run the `TicTacToeGame.java` file to start the game.
 
 After launching the game, players take turns clicking on the grid squares. Player X starts the game. The game automatically switches between Player X and Player O after each move. The aim is to get 3 of your marks in a row, column, or diagonal. If all squares are filled and no player has achieved 3 marks in a row, the game is a draw.
 
 Click the "RESET" button to clear the game board and start a new game, keeping the current scores. Click the "EXIT" button to close the game.
+
 
 ## Built With
 
